@@ -27,20 +27,14 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.20</version>
 		</dependency>
-
 	</dependencies>
 
+
 	<build>
-		<!-- <sourceDirectory>src</sourceDirectory>
-		<resources>
-			<resource>
-				<directory>src</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources> -->
-		
+		<!-- <sourceDirectory>src</sourceDirectory> <resources> <resource> <directory>src</directory> 
+			<excludes> <exclude>**/*.java</exclude> </excludes> </resource> </resources> -->
+
+
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
